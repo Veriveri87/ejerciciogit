@@ -7,10 +7,25 @@ body {
     color: deeppink;   
     text-align: center;
 }
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    padding: 10px 15px;
+    color: whitesmoke;
+}
+nav a:hover {
+    color: #da6ea7;
+    transition: .3s ease-in-out;
+}
 h1 {   
     font-size: 5em;
 }
 p {   
     font-size: 1em;
     color: deepskyblue;
+    width: 60%;
+    margin: 0 auto;
 }
