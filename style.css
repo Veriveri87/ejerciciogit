@@ -30,3 +30,12 @@ p {
     width: 60%;
     margin: 0 auto;
 }
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.flex-footer div {
+    width: 100%;
+}
